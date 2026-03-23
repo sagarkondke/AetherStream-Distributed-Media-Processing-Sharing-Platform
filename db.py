@@ -35,3 +35,4 @@ async def get_async_session() ->AsyncGenerator[AsyncSession,None]:
     async with async_session_maker() as session:
         yield session
 # start new session
+# we have take some rest
